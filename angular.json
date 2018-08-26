@@ -27,9 +27,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/bulma-extensions/dist/css/bulma-extensions.min.css",
+              "./node_modules/@mdi/font/css/materialdesignicons.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/bulma-extensions/dist/js/bulma-extensions.min.js"
+            ]
           },
           "configurations": {
             "production": {
